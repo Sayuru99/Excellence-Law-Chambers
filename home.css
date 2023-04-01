@@ -260,8 +260,9 @@
     padding-bottom: 0px;
   }
   .home-button {
-    top: 614px;
-    left: 287px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 160%);
   }
 }
 @media(max-width: 479px) {
@@ -286,7 +287,8 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-button {
-    top: 623px;
-    left: 155px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 145%);
   }
 }
