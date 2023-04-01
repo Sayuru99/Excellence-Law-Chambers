@@ -189,10 +189,12 @@
 }
 @media(max-width: 767px) {
   .home-herder-logo {
-    top: 30px;
-    left: 121px;
-    width: 488px;
-    height: 244px;
+    position: absolute;
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 488px;
+        height: 244px;
   }
   .home-image {
     top: -10px;
@@ -267,10 +269,12 @@
 }
 @media(max-width: 479px) {
   .home-herder-logo {
-    left: 0px;
-    right: 0px;
-    width: 453px;
-    margin: auto;
+    position: absolute;
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 488px;
+        height: 244px;
   }
   .home-text03 {
     height: 84px;
